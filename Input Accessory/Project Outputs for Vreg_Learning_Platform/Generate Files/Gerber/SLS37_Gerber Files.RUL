@@ -1,0 +1,17 @@
+DRC Rules Export File for PCB: C:\Users\tarkhan\Documents\Projects\Learning Platform for Swtiching Regulators\Altium\voltage-regulator-learning-platform\Input Accessory\Input_Accessory.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Via|Scope=Board|Minimum=4.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_All|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_HighVoltage|Scope=Board|Minimum=19.69
+RuleKind=Width|RuleName=Width_HighCurrent|Scope=Board|Minimum=11.81
+RuleKind=Width|RuleName=Width_PWR|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width_Z0_DIFF_100R|Scope=Board|Minimum=4.72
+RuleKind=Width|RuleName=Width_Z0_50R|Scope=Board|Minimum=6.30
+RuleKind=Width|RuleName=Width_BGA_Fanout|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance_BGA|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance_NDK|Scope=Board|Minimum=19.69
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width_All|Scope=Board|Minimum=4.72
+RuleKind=Clearance|RuleName=Clearance_All|Scope=Board|Minimum=4.72
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance_Fiducials|Scope=Board|Minimum=39.37
+RuleKind=Clearance|RuleName=Clearance_Edge_Fiducials|Scope=Board|Minimum=236.22

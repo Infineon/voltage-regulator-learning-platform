@@ -1,0 +1,31 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PrototypeSingle.PcbDoc   17.10.2022  16:33:21
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1_Top to L14_Bot
+ASCII RoundHoles File : PrototypeSingle.TXT
+EIA File   : PrototypeSingle.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             919       PTH        3772.26mm (148.51inch)
+T2      0.69mm (27mil)                                            Round             6         PTH        31.55mm (1.24inch)
+T3      0.8mm (31mil)                                             Round             2         PTH        5.00mm (0.20inch)
+T4      0.85mm (33mil)                                            Round             32        PTH        174.27mm (6.86inch)
+T5      0.9mm (35mil)                                             Round             16        PTH        53.50mm (2.11inch)
+T6      1.04mm (41mil)                                            Round             2         PTH        2.54mm (0.10inch)
+T7      1.1mm (43mil)           +/-0.15mm (6mil)                  Round             10        PTH        26.00mm (1.02inch)
+T8      1.1mm (43mil)                                             Round             30        PTH        204.06mm (8.03inch)
+T9      1.5mm (59mil)                                             Round             4         PTH        54.01mm (2.13inch)
+T10     1.6mm (63mil)                                             Round             22        PTH        577.39mm (22.73inch)
+T11     3mm (118mil)                                              Round             1         PTH        0.00mm (0.00inch)
+T12     0.9mm (35mil)                                             Round             12        NPTH       184.62mm (7.27inch)
+T13     3.2mm (126mil)                                            Round             4         NPTH       352.30mm (13.87inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1060
+
+Two holes at same point : 1
+-----------------------
+3291,3051
+
+Total Processing Time (hh:mm:ss) : 00:00:00

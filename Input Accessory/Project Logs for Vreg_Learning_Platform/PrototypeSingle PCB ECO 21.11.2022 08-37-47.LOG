@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=Vin_RevPol Pin=C210-1
+Removed Pin From Net: NetName=Vin_RevPol Pin=D210-2
+Removed Pin From Net: NetName=Vin_RevPol Pin=J219-1
+Removed Pin From Net: NetName=Vin_RevPol Pin=Q201-2
+Removed Pin From Net: NetName=Vin_RevPol Pin=R219-1
+Add Pin To Net: Unknown Pin: Pin C600-1
+Add Pin To Net: Unknown Pin: Pin C600-2
+Added Pin To Net: NetName=Pwr_Gate Pin=R214-2
+Added Pin To Net: NetName=Pwr_Gate Pin=S200-1
+Add Pin To Net: Unknown Pin: Pin U420-1
+Add Pin To Net: Unknown Pin: Pin U420-2
+Add Pin To Net: Unknown Pin: Pin U420-3
+Add Pin To Net: Unknown Pin: Pin U420-4
+Add Pin To Net: Unknown Pin: Pin U420-5
+Add Pin To Net: Unknown Pin: Pin U420-6
+Add Pin To Net: Unknown Pin: Pin U420-7
+Add Pin To Net: Unknown Pin: Pin U420-8
+Added Pin To Net: NetName=NetC210_1 Pin=C210-1
+Added Pin To Net: NetName=NetC210_1 Pin=D210-2
+Added Pin To Net: NetName=NetC210_1 Pin=J219-1
+Added Pin To Net: NetName=NetC210_1 Pin=Q201-2
+Added Pin To Net: NetName=NetC210_1 Pin=R219-1
+Added Net: Name=NetC210_1

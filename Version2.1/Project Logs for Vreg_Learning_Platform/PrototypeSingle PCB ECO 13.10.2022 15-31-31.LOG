@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=NetR219_1 Pin=R219-1
+Change Component Footprint: Designator=R219 Old Footprint=RESC3216X60N New Footprint=RESC3216X59N
+Change Component Comment : Designator=R219 Old Comment=20.5R New Comment=PMR18EZPJV1L0
+Change component parameters: Designator = "R219" ("R219"); Footprint = "RESC3216X60N"; UniqueID = "\NNQLUVVO\FRTBVXVS" ("\NNQLUVVO\FRTBVXVS")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.cn/datasheet/2/348/pmr_e-1919321.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.59mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PMR18EZPJV1L0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "755-PMR18EZPJV1L0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/PMR18EZPJV1L0?qs=MyNHzdoqoQKLzWdQPR00Ww%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR219_1 Pin=R219-2
+Change Net Name : Old Net Name=NetR219_1 New Net Name=NetR219_2
+Added Pin To Net: NetName=NetR219_1 Pin=R219-1
+Added Pin To Net: NetName=NetR219_1 Pin=S202-1
+Added Pin To Net: NetName=NetR219_1 Pin=TP219-1
+Added Net: Name=NetR219_1
+Add Class Member: Failed to add class member : Component 190 61201021621
+Add Class Member: Failed to add class member : Component S421 CL-SB-12A-01T
+Added Member To Class: ClassName=U_Input Member=Component TP219 61300211121

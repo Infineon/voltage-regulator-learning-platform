@@ -1,0 +1,24 @@
+# ---------------- User constants -------------------
+# General
+FILENAME = "output.txt"                     # Output file
+NETNAMES = ["net 3", "net 3", "net 3"]      # Net names for the load resitors
+
+# Thickness of the individual load resitors. Add more entries to generate more resistors
+THICKNESS = [0.5, 0.5, 0.5]
+
+# Board Specific
+BOARDX = 100  # Board dimensions
+BOARDY = 100
+OFFSETX = 50  # Offset refers to top left corner
+OFFSETY = 50
+CLEARANCE = 0.15  # Between traces of the same net
+LOAD_CLEARANCE = 0.2  # Between traces of different nets (how much do you trust the manufacturer?)
+OUTLINE_CLEARANCE = 0.3  # Between traces and the edge
+COPPER_THICKNESS = 35e-6  # Thickness of the copper layer
+
+# Keepouts
+# There are keepouts in each edge for mounting holes and a keepout in the top center for a connector
+# You have to add clearance by yourself!
+SCREW_KEEPOUT = 7.5  # Square keepout in the corners for the screw
+CONNECTOR_KEEPOUT_X = 6.5  # 1/2 of the width of the connector
+CONNECTOR_KEEPOUT_Y = 7.5  # Height of the connector

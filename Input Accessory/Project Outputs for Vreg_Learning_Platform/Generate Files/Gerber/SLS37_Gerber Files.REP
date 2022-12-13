@@ -1,0 +1,436 @@
+*************************************************************
+FileName = SLS37_Gerber Files.GBR
+AutoAperture = True
+*************************************************************
+Generating : L1_Top
+      File : SLS37_Gerber Files.GTL
+
+    Adding Layer      : L1_Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D14
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : SLS37_Gerber Files.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L14_Bot
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D20
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : SLS37_Gerber Files.GPB
+
+    Adding Layer      : L14_Bot
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D20
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : M16 (CMP_Courtyard_Bot)
+      File : SLS37_Gerber Files.GM16
+
+    Adding Layer      : M16 (CMP_Courtyard_Bot)
+
+
+Used DCodes :
+    D48
+*************************************************************
+
+*************************************************************
+Generating : M11 (Dimension_Top)
+      File : SLS37_Gerber Files.GM11
+
+    Adding Layer      : M11 (Dimension_Top)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : M6 (Sheet_Bot)
+      File : SLS37_Gerber Files.GM6
+
+    Adding Layer      : M6 (Sheet_Bot)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : SLS37_Gerber Files.GPT
+
+    Adding Layer      : L1_Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : M14 (CMP_Body_OTL_Bot)
+      File : SLS37_Gerber Files.GM14
+
+    Adding Layer      : M14 (CMP_Body_OTL_Bot)
+
+
+Used DCodes :
+    D48
+*************************************************************
+
+*************************************************************
+Generating : M5 (Sheet_Top)
+      File : SLS37_Gerber Files.GM5
+
+    Adding Layer      : M5 (Sheet_Top)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : M4 (ASY_Text_Bot)
+      File : SLS37_Gerber Files.GM4
+
+    Adding Layer      : M4 (ASY_Text_Bot)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : M3 (ASY_Text_Top)
+      File : SLS37_Gerber Files.GM3
+
+    Adding Layer      : M3 (ASY_Text_Top)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : M2 (CMP_Body_Bot)
+      File : SLS37_Gerber Files.GM2
+
+    Adding Layer      : M2 (CMP_Body_Bot)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SLS37_Gerber Files.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L14_Bot
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D20
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : L14_Bot
+      File : SLS37_Gerber Files.GBL
+
+    Adding Layer      : L14_Bot
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D17
+    D20
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : M1 (CMP_Body_Top)
+      File : SLS37_Gerber Files.GM1
+
+    Adding Layer      : M1 (CMP_Body_Top)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : SLS37_Gerber Files.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : SLS37_Gerber Files.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : L1_Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : SLS37_Gerber Files.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : M13 (CMP_Body_OTL_Top)
+      File : SLS37_Gerber Files.GM13
+
+    Adding Layer      : M13 (CMP_Body_OTL_Top)
+
+
+Used DCodes :
+    D48
+*************************************************************
+
+*************************************************************
+Generating : M12 (Dimension_Bot)
+      File : SLS37_Gerber Files.GM12
+
+    Adding Layer      : M12 (Dimension_Bot)
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : M15 (CMP_Courtyard_Top)
+      File : SLS37_Gerber Files.GM15
+
+    Adding Layer      : M15 (CMP_Courtyard_Top)
+
+
+Used DCodes :
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : SLS37_Gerber Files.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : SLS37_Gerber Files.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : L1_Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : SLS37_Gerber Files.GD1
+
+    Adding Drill Pair : L1_Top-L14_Bot
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : SLS37_Gerber Files.GG1
+
+    Adding Drill Pair : L1_Top-L14_Bot
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D49
+*************************************************************
+

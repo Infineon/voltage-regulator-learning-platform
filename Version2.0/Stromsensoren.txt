@@ -1,0 +1,6 @@
+Stromsensoren (Gain 20, Vcm>23V, BW>300kHz, Preis für 100 Stück):
+INA181: Sehr einfacher Aufbau, externe Referenz, 350kHz, 0,40€
+INA302: Interne Komparatoren, die wir nicht brauchen, 550 kHz, 3€ 
+MAX40056F: Interner Komparator, den wir nicht brauchen, 350 kHz, 2€
+TSC2010: Referenz kann einfach gesetzt werden 750kHz, 2€
+TSC2010H: Neuere Version, sieht sonst komplett gleich aus.

@@ -1,0 +1,134 @@
+*************************************************************
+FileName = Mainboard.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\matrix\matrix
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\profile
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\dielectric\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\dielectric\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m4__asy_text_bot_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m4__asy_text_bot_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m12__dimension_bot_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m12__dimension_bot_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m11__dimension_top_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m11__dimension_top_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m14__cmp_body_otl_bot_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m14__cmp_body_otl_bot_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m1__cmp_body_top_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m1__cmp_body_top_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m16__cmp_courtyard_bot_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m16__cmp_courtyard_bot_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m2__cmp_body_bot_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m2__cmp_body_bot_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_guide_top-bottom\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_guide_top-bottom\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m15__cmp_courtyard_top_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m15__cmp_courtyard_top_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m6__sheet_bot_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m6__sheet_bot_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\l14_bot\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\l14_bot\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m13__cmp_body_otl_top_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m13__cmp_body_otl_top_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m5__sheet_top_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m5__sheet_top_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\mechanical_32\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\mechanical_32\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\l1_top\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\l1_top\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m3__asy_text_top_\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\m3__asy_text_top_\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_drawing_top-bottom\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\drill_drawing_top-bottom\attrlist
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\KeilAdrian\Documents\Altium\voltage-regulator-learning-platform\Project Outputs for Vreg_Learning_Platform\Learning Platform for Switching Regulators 2021-09-30 11-47\ODB\odb\steps\pcb\eda\data
+

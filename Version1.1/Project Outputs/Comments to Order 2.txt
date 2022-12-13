@@ -1,0 +1,9 @@
+Spares from first V1.1 order: 
+8x ATL431
+8x 27uH 
+8x 15uH
+3x Shunt
+6x IRS2184
+
+Deleted in new Order because of new order: ATL431, 27uH Inductor, IRS2184
+Deleted because spares from V1.0 available: SMDJ20A, BAT54-05, 74HC4002PW, MCP6567, SMDJ20A
