@@ -1,0 +1,124 @@
+Removed Pin From Net: NetName=GND Pin=D203-1
+Removed Pin From Net: NetName=Zener_20V Pin=D203-3
+Removed Pin From Net: NetName=TL431ref Pin=D203-4
+Change Component Footprint: Designator=D203 Old Footprint=TI-SMD-X2SON-V New Footprint=SOT95P237X112-3N-1
+Change Component Comment : Designator=D203 Old Comment=ATL431LIAQDQNR New Comment=ATL431AQDBZR
+Change component parameters: Designator = "D203" ("D203"); Footprint = "TI-SMD-X2SON-V"; UniqueID = "\NNQLUVVO\KEXFBRWK" ("\NNQLUVVO\KEXFBRWK")
+Change component parameters (AddParameter): Name = "Application"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Article Number"; Value = "644060"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Combined Parameters"; Value = "- -;Vdc min/max:-;Iout:-;Fmax:-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Vendor WebSite"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://webnetprod.muc.infineon.com/PCBPortal_Prod/WorkFlows/AltiumComponent/StandardDocumentation?Versionid=644061"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentStatus"; Value = "Released"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Legacy DeviceID"; Value = "TI_ATL431AQDBZR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Legacy PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Order Number"; Value = "ATL431AQDBZR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "SOT,0.95mm pitch;3 pin,1.30mm W X 2.92mm L X 1.12mm H body"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Imperial"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Metric"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOT23-3 (DBZ)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Provision"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Type"; Value = "Integrated Circuit"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Remarks"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PLMStatus"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "QuickPick"; Value = "SOT23-3 (DBZ)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ROHS Compliant"; Value = "Y"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Schematic Remarks"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Second Source allowed"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Style"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "296-47201-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "595-ATL431AQDBZR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Symbol type"; Value = "TVS Diode Symbol, 1 Cathode, 2 Reference , 3 Anode"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature max"; Value = "125"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature min"; Value = "-40"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "Automotive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance Neg"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance Pos"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "ATL431AQDBZR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Version Number"; Value = "V01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage DC (max)"; Value = "na"; VariantName = "[No Variations]"
+Added Component: Designator=D2033(TI-SMD-X2SON-V)
+Add component (AddParameter): Name = "Alternate View"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Application"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Article Number"; Value = "699359"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Automotive Qualified"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Combined Parameters"; Value = "- - -;Vo:2.5V to 36V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Vendor WebSite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://webnetprod.muc.infineon.com/PCBPortal_Prod/WorkFlows/AltiumComponent/StandardDocumentation?Versionid=699360"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentStatus"; Value = "Released"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Legacy DeviceID"; Value = "TI_ATL431LIAQDQNR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Legacy PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Order Number"; Value = "ATL431LIAQDQNR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Multiple Parts"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "X2SON, SMD, 5 pin, 1.00 mm L X 1.00 mm W X 0.40 mm H body"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Imperial"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Metric"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "2SON or SOT23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Provision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Power Supply"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Remarks"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PLMStatus"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QuickPick"; Value = "2SON or SOT23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ROHS Compliant"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schematic Remarks"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Second Source allowed"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Style"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "296-ATL431LIAQDQNRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "595-ATL431LIAQDQNR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol type"; Value = "High Bandwidth Low-Iq Programmable Shunt Regulator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature max"; Value = "125"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature min"; Value = "-40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "Automotive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance Neg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance Pos"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "ATL431LIAQDQNR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Version Number"; Value = "V00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage DC (max)"; Value = "na"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C600-1
+Add Pin To Net: Unknown Pin: Pin C600-2
+Added Pin To Net: NetName=Zener_20V Pin=D203-1
+Added Pin To Net: NetName=TL431ref Pin=D203-2
+Added Pin To Net: NetName=GND Pin=D203-3
+Add Pin To Net: Unknown Pin: Pin J420-1
+Add Pin To Net: Unknown Pin: Pin J420-2
+Add Pin To Net: Unknown Pin: Pin U420-1
+Add Pin To Net: Unknown Pin: Pin U420-2
+Add Pin To Net: Unknown Pin: Pin U420-3
+Add Pin To Net: Unknown Pin: Pin U420-4
+Add Pin To Net: Unknown Pin: Pin U420-5
+Add Pin To Net: Unknown Pin: Pin U420-6
+Add Pin To Net: Unknown Pin: Pin U420-7
+Add Pin To Net: Unknown Pin: Pin U420-8
+Add Pin To Net: Unknown Pin: Pin XMC2GO-5
+Change Net Name : Old Net Name=NetJ421_2 New Net Name=NetJ420_1
+Added Pin To Net: NetName=NetD2033_1 Pin=D2033-1
+Added Net: Name=NetD2033_1
+Added Pin To Net: NetName=NetD2033_3 Pin=D2033-3
+Added Net: Name=NetD2033_3
+Added Pin To Net: NetName=NetD2033_4 Pin=D2033-4
+Added Net: Name=NetD2033_4
+Add Class Member: Failed to add class member : Component C600 100nF
+Added Member To Class: ClassName=U_Input Member=Component D2033 ATL431LIAQDQNR
+Add Class Member: Failed to add class member : Component J420 61300211121
+Added Member To Class: ClassName=U_PowerStage Member=Component J421 61300211121
+Add Class Member: Failed to add class member : Component U420 TSC2010IST
+Added Member To Class: ClassName=02_Top_Level Member=Component X150 TSW-108-07-L-S
