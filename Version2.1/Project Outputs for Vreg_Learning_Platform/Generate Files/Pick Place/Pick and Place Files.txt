@@ -4,8 +4,8 @@ C:\Users\tarkhan\Desktop\Voltage Regulator Learning Platform\Version2.1\Project 
 ========================================================================================================================
 File Design Information:
 
-Date:       10.01.23
-Time:       15:59
+Date:       16.02.23
+Time:       09:17
 Revision:   7ec827a8d6cc6fa7b7b025c554184840a952c66f
 Variant:    No variations
 Units used: mm

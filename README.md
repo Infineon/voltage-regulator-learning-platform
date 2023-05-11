@@ -1,15 +1,15 @@
 # Learning Platform for Switching Regulators
 
 
-![Version 2.1](![Alt text](Resources/LearningPlatforPeripherals.png))
-Resources\LearningPlatforPeripherals.png
+![Version 2.1](https://lh3.googleusercontent.com/mXw2e0O1Dn3ATKSt-0rPezoyeXoYsjjkwz_hUE6YXK8_qli8aZ7eyc0MIbelMhmXK4NhRsszs4dfDzUFlKky3QdYGnb7FjAEE3_e-Uz8WDJy7oJ0dezl6m6FXUo_xRJERlX-5XpMrsyX32wyKVDfA5MTR2tn5k2pCWXyUoHVZTqoZmKslX4L5VfZKfjh9H-OjmKw1kN9PrDjy_jHbO9Fr1rQ2G7N5EgFg-yqUvR9dl16PT6xJKW7FBoOOLqhIzwGbuTw3m2zcqjijmyu8Qf8Lrfm5DedqFJIVvnHmt-sHnwzYJsG3omO0gYdKWcSONqeOlObcjiL2m9TEDPe6qeiVB_8jKI6CMoJqcmXCVso6T7XEXtXLayqkl0LiICHAiDbPOu-QSOfDgTRjW7IXbJHu_y8vdR56oAaTkAz2wrDOfWzNw0dOChXK45EL5qBpT6IKl9Oxd1MhC8-W4EKGFpzN-Nepwh7qiYwk68KNA3qucZcgvnAFlr1rdKmRJzJMjX1-e54mAmmQHMjCrYoXyXMm4GvY_sdWRXFtKw_H-WAV8ZMdPTUJsE_psaZ93cOK-VPjgP0RAC-FOlMa3lIPlDNL-FeWZeLN2h4aRv5xjJFAKP4ino7imyzRSx_NHUWSau6Pim_xqnS3H4CndBPxLg1aX8eEMbXVFe46lRfmnEmKalpLvJQVDRwc4riEU8XFptBmd1gOHQGW58tXpos3WzOdWk9q1K8n2ZpMAtKQlYBkhM0jMjAwHFdmvCsynseb5w=w1250-h890-no?authuser=0)
+
 This platform is designed with the intention of providing an interactive educational opertunity to university students with diverse technical backgrounds on switching regulators (namely buck converters). The project aims to develop the students' skills on using basic microcontroller IO features as starters and then build upon those skills to use a gate driver to implement a buck converter and monitor its output and efficiency. Along the Buck converter design process, the students get to use the the on board's peripherals to understand the different properties of buck converters and how they could be optimized. 
 
 ## Project's History
 The project was introduced as a bachelor thesis of **Lukas Wiegert**. (*version 1.0*). Continued and further developed by **Adrian Keil** (*Versions: 1.0 ,1.1 ,1.2*) and finalized by **Youssef Tarkhan** (*versions: 2.1, 2.2*). The boards are used by the Technical University of Munich to teach the students and assess the quality and functionality of these boards and provide an open source curriculum.
 # Board Breakdown
 
-![Block Diagram](![Alt text](Resources/Block%20Diagram.png))
+![Block Diagram](https://lh3.googleusercontent.com/YcGAyyHS-4aoX9yGmsiNlIIkMnGP5UTXa0rZAErdtPAgV_91_FOJs0IKJrnPAjHqbJo5bOiqF_GSscV1sULOKV991ZT8mbX3_FvjuUV_4GhbcZs1wfuCCiG0n6VV0fdYLG_zZznKOcvpl409V6kfVaJLvUymsPXuQAIIeA9UXrrCvi5B6BGhYMnbzn4UCUFgwp1gXBMzgJUGYYJ2-VgNjphOvSgSBHuygkYGh5gEBgyjziOkeor8mO57H0dwDDTpAMET-RTzhdwcMDeMVJMOqU7JcFYQdKIvRJqd4piBksiZ2KeiNGIKb7Zs4QyfNAO8brn7ItFXhn3dSoF7nif3gLL4uBvRbLr2rNCtdcnu3h4Q_zKE30SmgJ81bwTDPzAXrQq7pu6PdMKDt9yIvBxrD4cGMxGibhIs5PCVc-BTvvPnTi0AmV1Wxzi95GsroMPuXAvQcsaFgbET9TfDxxn74JL7MaoG1WdIHq3EI1wdDWZVdzTGbHisIBOM8jrwL9aq6NcgsJspy1vrykpGAqRGaD2uO0zmt1ClQTHeaeq8iTtA-jsk-0oMXXAZ-EWqm98AFRupSX9_aiGSupPMayUcqGRaSoq-WWEkCMXRdMXPK5lUlG4xdb9lSzNcHTIoHcxkpiAPKJwKz4JvuGnl_FztBT4uILtTwCPMaDLWjOzmTdtvepMHpr5Rvx-Ctb7-hYlh0Q2Eq4hlAmjN7Ox7Xh-5rC9Jhn-pQEquOacZhTjBihOOLedKBxO8uuSnB3oj5vM=w1531-h744-no?authuser=0)
 Brief summary: As you can see from the block diagram, the board needs an input connection. (Bannana ports are provided at the bottom side of the board in version 2.2).  After the board makes sure that the polarity and the voltage are in check, the power is fed into the board's internal powersupply compartment. If the voltage level is below 10V then you will observe the undervoltage LED glowing in RED. The powerline feeding the whole board interfaces two optional possibilities for input current measurement. Power is then fed onto the power stage which consists of the components needed for the buck switching with a **VOut** output (*In older versions of the board there used to be additional banana ports for the **Vout** terminal and an additional ground banana port*.) Power is additionally fed into the arduino peripherals for basic microcontroller usage (LEDS, Switches, Buttons and Potentiometers). 
 
 *Note that for every measurable quantity such as the input current for instance, there is a testpoint that could be attached onto an oscilloscope in order to have an easier experience when trying the measure this quantity*
@@ -133,7 +133,7 @@ The main method of current measurement is the combination of a shunt resistor an
 ## Possible shield combinations 
 With the addition of the XMC2GO support, it has now become possible to use 
 ### Current Sense Shield2GO
-![Current Sense S2Go](![Alt text](Resources/TLI4970-Current-Sense-Shield2Go_Top_plain_neu.jpg_2104777148.png))
+![Current Sense S2Go](https://lh3.googleusercontent.com/u-2VhvUzSasAnN3VMJLjT_i6g_vxOhuAZEKvBkC19CTkAa9LT_9QvvrCKZU-fY3A2CV5dDFmKlfoDQSYuR_kbJNlabG51AxxkkoK8sQFl9xDTXuel90S6lfZUhYkoDdCySHUKoAEiwP4bHpRps46wT0KBFmwamhO_hpi1SIfGQINMbmdqoURgEJgG9Z0agBP2Jh_C_odMtRpI5mZQgyGJabZKxXKAhWSF4R7U8MzVv9bZuu2Ej_8UMb23Ao0IY5oTIxgJUPi3ZMgPJ9zPTNRahP9J1ikQfywHjtFcrxcqJN21Y5LhQ-_j76Q_YWz_z3wf5Tof8z7LDLcAKsNQxBwkiPz4tMrMoYmExHWaXEVJQ_3p6UsPaHTwGTpYRprqwlEXBCj2YLa95S5HBqlL61y13ABPX1AnT1LOVM_L13p3HXzRWy_jtnTMfvb8NY6Zzw-3HnSJBrinHHndZMj6L5bsQZN4fJoLasN6Cf9hpXFuzUZ1Bg6ThkP6daYJlpjaEfFKn0N4R33HLvx1cdGZYsR7djbH3aYa7P38MJK6Aq79f-yPphqb_LsOcXu-B8gDW0Kq29l2J37eqGjbZgZsDWWKUSa63dNXj2j_q7GF2oluJIIkac7TXBzoAYFeo35N0rNe0hsb2vWtlRRv7O3nTgCDWB-RoFEZVKzxViLMRbSkQaOnSkMogHHtLkZ5_A_q_UAluyUeypTS5XZyDHZo4bNd3qyaNU6nQoEnbiUIeuE1aQL-JfgejRI85Bv3j8YtEA=w492-h186-no?authuser=0)
 -- This shield can be used as an alternative to the shunt resistor + current sense amplifier combination to measure the input current. To use it all you'll have to do is to  stack it on top of the XMC2GO. This could also be used to introduce students to different communication protocols, since this shield supports SPI communication.
 
 # Simulation Files
@@ -143,7 +143,7 @@ You can find these simulations under the Directory /Simulations.
 
 # FAQ
 - Can this board be fully hand assembled?
-	- Yes, infact for the last summer semester, due to some delays we had to assemble the boards to University using solder paste and a hot gun. However starting from version 2.1, most 0603 SMD capacitors and resistors have been replaced by 1206 ones; so it should be feasible to even solder the components using with a soldering iron. The only difficulty would be soldering the ATL431, which is responsible for the input voltage hysterisis so even if you were not capable of soldering it, know that you'll have to take care of the input voltage because the board won't shut down if the voltage exceeds the limit.
+	- Yes, infact for the last summer semester, due to some delays we had to assemble the boards to University using solder paste and a hot gun. However starting from version 2.1, all  0603 SMD capacitors and resistors have been replaced by 1206 ones; so it should be feasible to even solder the components using with a soldering iron. The only difficulty would be soldering the ATL431, which is responsible for the input voltage hysterisis so even if you were not capable of soldering it, know that you'll have to take care of the input voltage because the board won't shut down if the voltage exceeds the limit.
 	
 - What type of background experience does it require to participate in this course?
 	- Absolutely none, within the scope of this course: students get to have first contact with microcontrollers and even blink LEDs and then get to deal with pulse width modulation. Students also have the possibility of dealing with different communication protocols through the addition of XMC2Go shields.
@@ -158,4 +158,4 @@ You can find these simulations under the Directory /Simulations.
 
 
 # Future Strategy 
-This project is not yet fully disclosed, and it will remain under  development so feel free to reach out to youssef.tarkhan@infineon.com for any inquiries or suggestions anytime. # voltage-regulator-learning-platform
+This project is not yet fully disclosed, and it will remain under  development so feel free to reach out to youssef.tarkhan@infineon.com for any inquiries or suggestions anytime. 

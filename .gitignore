@@ -1,0 +1,14 @@
+# Altium thumbnail files
+**/__Previews/
+
+# Altium backup archives
+**/History/
+
+# Altium metadata file
+*.PcbDoc.htm
+
+#Project logs
+**/Project Logs for Vreg_Learning_Platform/
+
+#Generated Files
+**/Project Outputs for Vreg_Learning_Platform/
