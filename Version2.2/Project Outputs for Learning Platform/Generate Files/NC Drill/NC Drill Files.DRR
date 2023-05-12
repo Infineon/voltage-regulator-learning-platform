@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB.PcbDoc   12.05.2023  20:45:22
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1_Top to L14_Bot
+ASCII RoundHoles File : NC Drill Files.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             969       PTH        151.58inch (3850.24mm)
+T2      27mil (0.69mm)                                            Round             3         PTH        0.34inch (8.67mm)
+T3      32mil (0.8mm)                                             Round             2         PTH        0.20inch (5.00mm)
+T4      33mil (0.85mm)                                            Round             32        PTH        6.86inch (174.27mm)
+T5      41mil (1.04mm)                                            Round             2         PTH        0.10inch (2.54mm)
+T6      43mil (1.1mm)           +/-6mil (0.15mm)                  Round             10        PTH        0.90inch (22.86mm)
+T7      43mil (1.1mm)                                             Round             30        PTH        8.03inch (204.06mm)
+T8      59mil (1.5mm)                                             Round             4         PTH        2.13inch (54.01mm)
+T9      63mil (1.6mm)                                             Round             21        PTH        21.64inch (549.73mm)
+T10     35mil (0.9mm)                                             Round             12        NPTH       7.27inch (184.62mm)
+T11     126mil (3.2mm)                                            Round             4         NPTH       13.87inch (352.30mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1089
+
+Two holes at same point : 1
+-----------------------
+3291,3051
+
+Total Processing Time (hh:mm:ss) : 00:00:01

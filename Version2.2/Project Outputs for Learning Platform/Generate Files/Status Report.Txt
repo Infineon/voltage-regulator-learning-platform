@@ -1,0 +1,11 @@
+Output: Pick and Place Files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [PCB.PcbDoc]
+   Generated File[Pick and Place Files.txt]
+   Generated File[Pick and Place Files.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 20:45:40 On 12.05.2023
