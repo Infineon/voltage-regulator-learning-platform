@@ -8,14 +8,14 @@
 This platform is designed with the intention of providing an interactive educational opertunity to university students with diverse technical backgrounds on switching regulators (namely buck converters). The project aims to develop the students' skills on using basic microcontroller IO features as starters and then build upon those skills to use a gate driver to implement a buck converter and monitor its output and efficiency. Along the Buck converter design process, the students get to use the the on board's peripherals to understand the different properties of buck converters and how they could be optimized. 
 
 ## Project's History
-The project was introduced as a bachelor thesis of **Lukas Wiegert**. (*version 1.0*). Continued and further developed by **Adrian Keil** (*Versions: 1.0 ,1.1 ,1.2*) and finalized by **Youssef Tarkhan** (*versions: 2.1, 2.2*). The boards are used by the Technical University of Munich to teach the students and assess the quality and functionality of these boards and provide an open source curriculum.
+The project was introduced as a bachelor thesis of **Lukas Wiegert**. (*version 1.0*). Continued and further developed by **Adrian Keil** (*Versions: 1.0 ,1.1 ,1.2*) and finalized by **Youssef Tarkhan** (*versions: 2.0, 2.1*). The boards are used by the Technical University of Munich to teach the students and assess the quality and functionality of these boards and provide an open source curriculum.
 # Board Breakdown
 
 <p align="center">
-  <img src="photos/Block%20Diagram.png" alt="Alt Text" width="1000">
+  <img src="photos/Block%20Diagram.png" alt="Alt Text" width="1100">
 </p>
 
-**Brief summary**: As you can see from the block diagram, the board needs an input connection. (Bannana ports are provided at the bottom side of the board in version 2.2).  After the board makes sure that the polarity and the voltage are in check, the power is fed into the board's internal powersupply compartment. If the voltage level is below 10V then you will observe the undervoltage LED glowing in RED. The powerline feeding the whole board interfaces two optional possibilities for input current measurement. Power is then fed onto the power stage which consists of the components needed for the buck switching with a **VOut** output (*In older versions of the board there used to be additional banana ports for the **Vout** terminal and an additional ground banana port*.) Power is additionally fed into the arduino peripherals for basic microcontroller usage (LEDS, Switches, Buttons and Potentiometers). 
+**Brief summary**: As you can see from the block diagram, the board needs an input connection. (Bannana ports are provided at the bottom side of the board).  After the board makes sure that the polarity and the voltage are in check, the power is fed into the board's internal powersupply compartment. If the voltage level is below 10V then you will observe the undervoltage LED glowing in RED. The powerline feeding the whole board interfaces two optional possibilities for input current measurement. Power is then fed onto the power stage which consists of the components needed for the buck switching with a **VOut** output (*In older versions of the board there used to be additional banana ports for the **Vout** terminal and an additional ground banana port*.) Power is additionally fed into the arduino peripherals for basic microcontroller usage (LEDS, Switches, Buttons and Potentiometers). 
 
 *Note that for every measurable quantity such as the input current for instance, there is a testpoint that could be attached onto an oscilloscope in order to have an easier experience when trying the measure this quantity*
 
@@ -118,18 +118,14 @@ Also add the following pin setup lines into your setup loop
 <br>
 
 
-
 > **Note:** In order to use both user buttons you'll have to unsolder the resistor at Pin 1.4 (check out the diagram below)
 
 
-
-
 <p align="center">
+  <a href="https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc11_boot_001/">
   <img src="photos/SolderingGuideXMC1100.PNG" alt="Alt Text" width="700">
+  </a>
 </p>
-
-# Board Peripherals
-As previously mentioned, what makes the board special is all the bells and whistles it comes with. 
 
 
 # Power Input
@@ -189,33 +185,36 @@ Along with the input being fed into the board, the board additionally has 3 addi
 
 <br><br>
 
-## Safety
+# Safety
 The safety compartment of the board is comprised mainly of a comparator and a safety latch, where when the safety comparator detects a flag, this flag is saved on the latch. (To reset the latch all you'll have to do is press the latch reset button)
+
+For example if the undervoltage flag is raised (Input voltage goes below 10V), the undervoltage flag will be raised and the corresponding LED will turn on. Aslong as the latch has not been reset, even if the input voltage goes above 10V, the LED will stay on and the shutdown signal will keep getting sent to the microcontroller and the power components. 
+
 
 **Flags**
 
 When safety flags are triggered, a **shutdown** signal is generated and the corresponding flag's LED is lit. The **shutdown** signal is delivered to the microcontroller and the power stage components. The powerstage is disabled as long as the shutdown signal is being delivered to its components.  
 
 
-- Overcurrent
+- **Overcurrent**
   - The output current from the powerstage is measured over a shuntresistor and a current sense amplifier. The output signal is then fed into a the safety comparator, which is compared to a constant reference voltage. (This reference voltage is equal to the corresponding output of the amplifier when the output current is around **2.8A**). 
   	<p align="center">
 	<img src="photos/Overcurrent%20Detection.PNG" alt="Alt Text" width="700">
 	</p>
 
-- Undervoltage
+- **Undervoltage**
   - the input voltage is fed through the two equal value resistors R510 and R511 and the signal is halfed (voltage divider Law), and is then fed into the comparator. As reference the 5V Buck output is fed into the other input of the comparator. If the input voltage goes below 10V , then half of that signal will be lower than 5V and so the undervoltage flag would be triggered.
   <p align="center">
 	<img src="photos/Undervoltage%20Detection.PNG" alt="Alt Text" width="450">
 	</p>
 
 	
-- Overtemperature (External)
+- **Overtemperature (External)**
   - An NTC is connected on the external resistor board. (Negative Thermal cooefficient resistor; pretty much a fancy word for a resistor, who's resistance value changes when its temperature changes). The NTC's signal is connected to an input of the safety comparator with a reference signal connected to the other input.
     <p align="center">
 	<img src="photos/Overtemp-external.PNG" alt="Alt Text" width="700">
 	</p>
-- Overtemperature (Internal)
+- **Overtemperature (Internal)**
   - Similar to external overtemperature detection, however the NTC is onboard and there is a variable resisotr on board to calibrate the onboard overtemperature limit of the board. 
 <p align="center">
 	<img src="photos/OverTEMP-internal.PNG" alt="Alt Text" width="700">
@@ -223,11 +222,13 @@ When safety flags are triggered, a **shutdown** signal is generated and the corr
 
 
 
-- Safety LEDs
+- **Safety Flag LEDs**
   - you can find the safety LEDs are placed on the top right corner of the PCB
 <p align="center">
 	<img src="photos/safety%20LEDs.PNG" alt="Alt Text" width="200">
 	</p>
+
+
 
 <br><br>
 ## Miscellaneous
@@ -244,8 +245,25 @@ The board is equipped with:
 <br>
 
 ##  Buck Operation
-The buck operation takes place over a gate driver; what happens: is that the gate driver takes in pulse width modulated signals from the microcontroller (XMC 1100 Bootkit) or an external controller through the **PWM** pin on the external control pin header.  The users have to modify the **BUCK CNTRL** switch to adapt the circuitry to whether or not the control signal would be coming from the external control pin header or through the onboard controller pins(*XMC1100 Bootkit*). The students get to change the frequency and duty cycle of the signal in order to achieve their desired output voltage. 
+The buck operation takes place over a gate driver; what happens: is that the gate driver takes in pulse width modulated signals from the microcontroller (**XMC 1100 Bootkit**) or an external controller through the **PWM** pin on the external control pin header.  The users have to modify the **BUCK CNTRL** switch to adapt the circuitry to whether or not the control signal would be coming from the external control pin header or through the onboard controller pins. The students get to change the frequency and duty cycle of the signal in order to achieve their desired output voltage. 
 
+
+<p align="center">
+	<img src="photos/Buck_Cntrl_Sw.PNG" alt="Alt Text" width="200">
+	</p>
+
+
+There are also some jumpers on board that could adjust the output circuity of the buck operation.
+Jumpers are available for: 
+- Connecting three 10 uF Capacitors 
+- Connecting a 220uF capacitor
+- Connecting a 15uH inductor
+
+
+
+<p align="center">
+	<img src="photos/Ouput%20stage%20jumpers.PNG" alt="Alt Text" width="400">
+	</p>
 
 
 
@@ -283,15 +301,42 @@ As shown in the diagram above, using jumper cables, the user externally has acce
 ## Current Measurement
 The main method of current measurement is the combination of a shunt resistor and a current sense amplifier. This setup is repeated in the input and output current measurement system. The operation relies on a voltage drop accross the shunt resistor proportional to the current flowing through it. This voltage drop is amplified by the current sense amplifier into a new voltage value. This voltage value is read by the micro-controller's ADC and it's used to subsequently calculate the value of the current.
 
+<p align="center">
+	<img src="photos/shuntamp.PNG" alt="Alt Text" width="600">
+	</p>
+
+the main component (TSC2010IST) in the diagram above is a current sense amplifier. This current sense amplifier is connected over a shunt resistor (pins: 1 & 8). The output of this amplifier is proportional to the amount of current going through the shunt resistor. 
 
 
 <br>
 
+# Testpoints
+
+The board is equiped with test points to make it easier for students to observe different quantities using an oscilloscope.
+
+<center>
+<p align="center">
+	<img src="photos/pcb%20testpoint%20black.png" alt="Alt Text" width="200">
+	</p>
+All black testpoints are Ground testpoints
+ 
+<p align="center">
+	<img src="photos/pcb%20testpoint%20red.png" alt="Alt Text" width="350">
+	</p>
+Red testpoints are labelled with their corresponding measurement quantity. 
+
+</center>
+<br>
+
+
 # Simulation Files
-To provide a rich experience to students, the simulation files for most of the building blocks of the learning platform are provided. These simulations are accessable of LTSPICE, which is an open source freeware, that is very popular in the industry.  
+To provide a rich experience to students, the simulation files for most of the building blocks of the learning platform are provided. These simulations are accessable on LTSPICE, which is an open source freeware, that is very popular in the industry.  
 
 You can find these simulations under the Directory /Simulations.
 <br>
+
+
+
 
 
 
