@@ -1,0 +1,253 @@
+Board Information Report
+Filename     : C:\Users\david\OneDrive\Escritorio\Thesis\voltage-regulator-learning-platform-main\voltage-regulator-learning-platform-main\Version2.2\PCBV3.PcbDoc
+Date         : 22-Mar-25
+Time         : 4:01:50 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 120.8611mmx117.6mm
+    Components on board, 192
+count : 2
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 405
+    Connections routed, 405
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    L1_Top, 0, 345, 0, 949, 0, 0, 15, 0
+    L14_Bot, 0, 83, 0, 421, 0, 0, 7, 0
+    M1 (CMP_Body_Top), 0, 0, 0, 8, 0, 0, 0, 493
+    M2 (CMP_Body_Bot), 0, 0, 0, 0, 0, 0, 0, 66
+    Top Assembly Text Top, 0, 0, 0, 0, 140, 0, 0, 0
+    Bottom Assembly Text Top, 0, 0, 0, 0, 28, 0, 0, 0
+    M5 (Sheet_Top), 0, 0, 0, 0, 0, 0, 0, 0
+    M6 (Sheet_Bot), 0, 0, 0, 0, 0, 0, 0, 0
+    Assembly Layer, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Designator, 0, 0, 0, 0, 67, 0, 0, 0
+    Bottom Designator, 0, 0, 0, 0, 11, 0, 0, 0
+    Top 3D Body, 0, 0, 0, 64, 0, 0, 0, 17
+    M11 (Dimension_Top), 0, 0, 0, 0, 0, 0, 0, 0
+    M12 (Dimension_Bot), 11, 0, 0, 9, 6, 0, 0, 0
+    M13 (CMP_Body_OTL_Top), 26, 0, 0, 494, 40, 0, 0, 46
+    M14 (CMP_Body_OTL_Bot), 10, 0, 0, 157, 0, 0, 0, 1
+    M15 (CMP_Courtyard_Top), 20, 0, 0, 720, 0, 0, 0, 0
+    M16 (CMP_Courtyard_Bot), 0, 0, 0, 178, 0, 0, 0, 0
+    Top Courtyard, 0, 0, 0, 68, 0, 0, 0, 0
+    Top Assembly, 0, 0, 0, 64, 16, 0, 0, 0
+    Top Component Center, 0, 0, 0, 34, 0, 0, 0, 0
+    Bottom Assembly, 0, 0, 0, 20, 5, 0, 0, 0
+    Bottom Courtyard, 0, 0, 0, 20, 0, 0, 0, 0
+    Top Component Outline, 0, 0, 0, 4, 0, 0, 0, 0
+    Bottom 3D Body, 0, 0, 0, 20, 0, 0, 0, 5
+    Bottom Component Center, 0, 0, 0, 10, 0, 0, 0, 0
+    Bottom Component Outline, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 40, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 42, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 8, 0
+    Top Overlay, 80, 0, 0, 515, 438, 0, 16, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 3, 0
+    Bottom Overlay, 5, 0, 0, 113, 95, 0, 10, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 24, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 101, 244, 0, 0, 0, 1, 0
+count : 39
+
+Drill Pairs, Vias
+    L1_Top - L14_Bot, 244
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    L1_Top, 20.368, 13140.33, 92%
+    L14_Bot, 20.761, 13394.278, 94%
+count : 2
+
+Non-Plated Hole Size, Pads, Vias
+    0mm, 265, 0
+    3.2mm, 4, 0
+count : 2
+
+Plated Hole Size, Pads, Vias
+    0mm, 163, 0
+    0.3mm, 0, 244
+    0.69mm, 3, 0
+    0.8mm, 2, 0
+    0.81mm, 5, 0
+    0.85mm, 32, 0
+    1.1mm, 18, 0
+    1.5mm, 4, 0
+    1.6mm, 15, 0
+    1.85mm, 18, 0
+count : 10
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    -3.2mm, 4
+    0.5mm, 7
+    0.5mm, 244
+    0.6mm, 21
+    0.6mm, 19
+    0.925mm, 18
+    1.995mm, 32
+count : 7
+
+Mid Layer Annular Ring Size, Count
+    -3.2mm, 4
+    0.5mm, 7
+    0.5mm, 244
+    0.6mm, 21
+    0.6mm, 19
+    0.925mm, 18
+    1.995mm, 32
+count : 7
+
+Bottom Layer Annular Ring Size, Count
+    -3.2mm, 4
+    0.5mm, 7
+    0.5mm, 244
+    0.6mm, 21
+    0.6mm, 19
+    0.925mm, 18
+    1.995mm, 32
+count : 7
+
+Pad Solder Mask, Count
+    -0.3mm, 12
+    0mm, 378
+    0.1016mm, 139
+count : 3
+
+Pad Paste Mask, Count
+    -2.9mm, 2
+    -0.3mm, 12
+    -0.05mm, 16
+    0mm, 499
+count : 4
+
+Pad Pwr/Gnd Expansion, Count
+    0.508mm, 529
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 529
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 529
+count : 1
+
+Pad Relief Entries, Count
+    4, 529
+count : 1
+
+Via Solder Mask, Count
+    -0.8mm, 244
+count : 1
+
+Via Pwr/Gnd Expansion, Count
+    0.508mm, 244
+count : 1
+
+Track Width, Count
+    0mm, 6
+    0.001mm, 8
+    0.05mm, 142
+    0.1mm, 1466
+    0.2mm, 767
+    0.22mm, 1
+    0.254mm, 70
+    0.3mm, 774
+    0.4mm, 83
+    0.5mm, 302
+    0.6mm, 27
+    0.75mm, 12
+    1mm, 91
+    1.5mm, 16
+    2mm, 31
+    3mm, 72
+count : 16
+
+Arc Line Width, Count
+    0mm, 1
+    0.1mm, 78
+    0.2mm, 31
+    0.25mm, 37
+    0.3mm, 5
+count : 5
+
+Arc Radius, Count
+    0.05mm, 19
+    0.1mm, 2
+    0.1005mm, 2
+    0.125mm, 37
+    0.15mm, 5
+    0.3048mm, 1
+    0.4mm, 3
+    0.5mm, 13
+    1mm, 6
+    1.585mm, 30
+    1.6mm, 4
+    2.085mm, 15
+    2.84mm, 8
+    3.34mm, 4
+    6.5mm, 2
+    6.9mm, 1
+count : 16
+
+Arc Degrees, Count
+    90, 6
+    180, 17
+    360, 129
+count : 3
+
+Text Height, Count
+    0.4mm, 20
+    0.6mm, 32
+    0.8mm, 3
+    1mm, 261
+    1.2mm, 174
+    1.4mm, 1
+    1.5mm, 6
+    1.524mm, 277
+    1.6mm, 8
+    1.7mm, 9
+    1.8mm, 8
+    2mm, 31
+    2.3mm, 14
+    4mm, 2
+count : 14
+
+Text Width, Count
+    0.075mm, 1
+    0.1mm, 69
+    0.15mm, 5
+    0.2mm, 328
+    0.25mm, 47
+    0.254mm, 393
+    0.3mm, 2
+    5mm, 1
+count : 8
+
+Net Track Width, Count
+    0.15mm, 120
+count : 1
+
+Net Via Size, Count
+    1.27mm, 120
+count : 1
