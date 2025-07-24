@@ -8,7 +8,15 @@
 This platform is designed with the intention of providing an interactive educational opertunity to university students with diverse technical backgrounds on switching regulators (namely buck converters). The project aims to develop the students' skills on using basic microcontroller IO features as starters and then build upon those skills to use a gate driver to implement a buck converter and monitor its output and efficiency. Along the Buck converter design process, the students get to use the the on board's peripherals to understand the different properties of buck converters and how they could be optimized. 
 
 ## Project's History
-The project was introduced as a bachelor thesis of **Lukas Wiegert**. (*version 1.0*). Continued and further developed by **Adrian Keil** (*Versions: 1.0 ,1.1 ,1.2*) and finalized by **Youssef Tarkhan** (*versions: 2.0, 2.1*). The boards are used by the Technical University of Munich to teach the students and assess the quality and functionality of these boards and provide an open source curriculum.
+The project was introduced as a bachelor thesis of **Lukas Wiegert**. (*version 1.0*). Continued and further developed by **Adrian Keil** (*Versions: 1.0 ,1.1 ,1.2*) and finalized by **Youssef Tarkhan** (*versions: 2.0, 2.1*). The latest update was done 2025 from **David Lopez** (*version: PCBv3*). The boards are used by the Technical University of Munich to teach the students and assess the quality and functionality of these boards and provide an open source curriculum.
+
+# Latest Update PCBv3
+
+The latest update included mainly following changes:
+- Removing the 3.3V rail. Only two remaining power supply rails (12V for power part, 5V for digital logik and measurements).
+- Fixed common error that current measurement opamps burn because of shorted ouputs (male pinheaders get easily shorted when probed)
+- Additional output resistance as second safety measure
+
 # Board Breakdown
 
 <p align="center">
